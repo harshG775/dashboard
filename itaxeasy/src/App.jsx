@@ -3,7 +3,7 @@ import Sidebar from "./layouts/sidebar/Sidebar";
 
 import PageRoutes from "./PageRoutes"
 
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 
 
 
