@@ -192,7 +192,7 @@ function SidebarLinkToggle(prop) {
     <li>
         {typeof(item.nestedData) != "object"?
             <Link to={item.link} class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
-                <i className={`${item.iconClassName}  flex-shrink-0 w-5 h-5 text-gray-500 transition duration-75 group-hover:text-gray-900 dark:text-gray-400 dark:group-hover:text-white`}></i>
+                <i className={`${item.iconClassName}  flex-shrink-0 w-5 h-5 text-gray-500 transition duration-75 group-hover:text-gray-900 dark:text-gray dark:group-hover:text-white`}></i>
                 <span class="flex-1 ml-3 whitespace-nowrap">
                     {item.title}
                     <br />
@@ -211,7 +211,7 @@ function SidebarLinkToggle(prop) {
         <ul id="dropdown-example" class={`${isLinkOpen?"":"hidden"} py-2 space-y-2`}>
             {typeof(item.nestedData) == "object"? item?.nestedData?.map((e,i)=>(
                 <li key={i}>
-                    <Link to={e.link} class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">
+                    <Link to={e.link} class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-gray-500  dark:hover:bg-gray-700">
                     <i className={`${e.iconClassName}   flex-shrink-0 w-5 h-5 text-gray-500 transition duration-75 group-hover:text-gray-900 dark:text-gray-400 dark:group-hover:text-white`}></i>
                         {e.title}
                     </Link>

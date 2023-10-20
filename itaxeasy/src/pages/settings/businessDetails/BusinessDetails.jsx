@@ -2,12 +2,12 @@ import { Link } from "react-router-dom"
 export default function BusinessDetails() {
     return (
 		<div className='p-4 sm:ml-64'>
-			<Link to='/settings'>
-				<h2 className='mb-6 text-2xl font-semibold text-gray-700 dark:text-gray-200'>
-					<i className='fa-solid fa-arrow-left w-5 h-5 mr-3'></i>
-					Business Details
-				</h2>
-			</Link>
+			<h2 className='flex mb-6 text-2xl font-semibold text-gray-700 dark:text-gray-200'>
+				<Link to='/settings'>
+						<i className='fa-solid fa-arrow-left w-5 h-5 mr-3'></i>
+						Business Details
+				</Link>
+			</h2>
 			<main className=' p-4 border-2 border-gray-200 border-dashed rounded-lg dark:border-gray-700 h-full overflow-y-auto'>
 				<form>
 					<div className='grid md:grid-cols-2 md:gap-6'>
@@ -220,7 +220,7 @@ export default function BusinessDetails() {
 					</div>
 
 					<div>
-                    <button type='submit' class='px-12 mt-4 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800'>
+                    <button type='submit' class=' px-12 mt-4 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800'>
 						Submit
 					</button>
                     </div>
