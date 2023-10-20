@@ -111,7 +111,7 @@ function SidebarLinks() {
                 },
                 {
                     iconClassName:"fa-solid fa-file-arrow-down",
-                    title:"Create",
+                    title:"Return",
                     link:"sales/return"
                 }
             ]
@@ -133,7 +133,7 @@ function SidebarLinks() {
                 },
                 {
                     iconClassName:"fa-solid fa-file-arrow-down",
-                    title:"Create",
+                    title:"Return",
                     link:"purchases/return"
                 }
             ]
