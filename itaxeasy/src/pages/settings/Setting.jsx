@@ -1,12 +1,11 @@
-import {useNavigate,Link } from "react-router-dom"
+import {Link } from "react-router-dom"
 export default function Setting() {
-  const navigate = useNavigate();
     return (
     <div className="p-4 sm:ml-64">            
             <h2 className='flex mb-6 text-2xl font-semibold text-gray-700 dark:text-gray-200'>
-                <div onClick={() => navigate(-1)} className=" cursor-pointer">
+                <Link to="/" className=" cursor-pointer">
                     <i className='fa-solid fa-arrow-left w-5 h-5 mr-3'></i>
-                </div>
+                </Link>
                 Journal Entry
             </h2>
         <h2 className="my-6 text-2xl font-semibold text-gray-700 dark:text-gray-200">
