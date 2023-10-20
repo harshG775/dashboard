@@ -14,7 +14,7 @@ export default function App() {
 
 	return (
 		<BrowserRouter>
-            <Sidebar/>
+            {/* <Sidebar/> */}
 			<PageRoutes />
 		</BrowserRouter>
 	);
