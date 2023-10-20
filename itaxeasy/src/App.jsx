@@ -10,7 +10,7 @@ import Journal from "./pages/journal/Journal";
 
 import All from "./pages/all/All";
 import Create from "./pages/create/Create";
-import Return from "./pages/return/return";
+import Return from "./pages/return/Return";
 
 import NotFound404 from "./pages/notfound404/NotFound404";
 
