@@ -7,119 +7,6 @@ const SidBarData = {
         title:"ItaxEasy",
         subTitle:"Easy Accountancy"
     },
-    linkData:[
-        {
-            iconClassName:"fa-solid fa-table-cells-large",
-            title:"DashBoard",
-            link:"/"
-        },
-        {
-            iconClassName:"fa-solid fa-box-open",
-            title:"Items",
-            nestedData:[
-                {
-                    iconClassName:"fa-solid fa-globe",
-                    title:"All",
-                    link:"items/all",
-                },
-                {
-                    iconClassName:"fa-solid fa-plus",
-                    title:"Create",
-                    link:"items/create",
-                }
-            ]
-
-        },
-        {
-            iconClassName:"fa-solid fa-users",
-            title:"Parties",
-            nestedData:[
-                {
-                    iconClassName:"fa-solid fa-globe",
-                    title:"All",
-                    link:"party/all"
-                },
-                {
-                    iconClassName:"fa-solid fa-plus",
-                    title:"Create",
-                    link:"party/create"
-                },
-            ]
-        },
-        {
-            iconClassName:"fa-solid fa-cart-shopping",
-            title:"Sales",
-            nestedData:[
-                {
-                    iconClassName:"fa-solid fa-globe",
-                    title:"All",
-                    link:"sales/all"
-                },
-                {
-                    iconClassName:"fa-solid fa-plus",
-                    title:"Create",
-                    link:"transactions/sales/create"
-                },
-                {
-                    iconClassName:"fa-solid fa-file-arrow-down",
-                    title:"Create",
-                    link:"sales/return"
-                }
-            ]
-            
-        },
-        {
-            iconClassName:"fa-solid fa-bag-shopping",
-            title:"Purchases",
-            nestedData:[
-                {
-                    iconClassName:"fa-solid fa-globe",
-                    title:"All",
-                    link:"purchases/all"
-                },
-                {
-                    iconClassName:"fa-solid fa-plus",
-                    title:"Create",
-                    link:"transactions/purchases/create"
-                },
-                {
-                    iconClassName:"fa-solid fa-file-arrow-down",
-                    title:"Create",
-                    link:"purchases/return"
-                }
-            ]
-
-        },
-        {
-            iconClassName:"fa-solid fa-book-open",
-            title:"Accounts",
-            nestedData:[
-                {
-                    iconClassName:"fa-solid fa-globe",
-                    title:"All",
-                    link:"accounts/all"
-                },
-                {
-                    iconClassName:"fa-solid fa-plus",
-                    title:"Create",
-                    link:"accounts/create"
-                },
-                
-            ]
-
-        },
-        {
-            iconClassName:"fa-solid fa-pen",
-            title:"Journal"
-
-        },
-        {
-            iconClassName:"fa-solid fa-screwdriver-wrench",
-            title:"Settings"
-
-        },
-
-    ]
 }
 
 export default function Sidebar() {
@@ -145,7 +32,6 @@ export default function Sidebar() {
 
                 <Logo/>
                 <SidebarLinks/>
-                
                 <button onClick={handleMenuToggle} data-drawer-target="sidebar-multi-level-sidebar" data-drawer-toggle="sidebar-multi-level-sidebar" aria-controls="sidebar-multi-level-sidebar" type="button" 
                         class="fixed top-0 inline-flex items-center p-2 mt-6 ml-44  text-sm text-gray-500 rounded-lg sm:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600">
                     <span class="sr-only">Open sidebar</span>
@@ -153,6 +39,7 @@ export default function Sidebar() {
                         <path clip-rule="evenodd" fill-rule="evenodd" d="M2 4.75A.75.75 0 012.75 4h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 4.75zm0 10.5a.75.75 0 01.75-.75h7.5a.75.75 0 010 1.5h-7.5a.75.75 0 01-.75-.75zM2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10z"></path>
                     </svg>
                 </button>
+                
             </div>
         </aside>        
         </>
@@ -279,7 +166,7 @@ function SidebarLinks() {
         {
             iconClassName:"fa-solid fa-screwdriver-wrench",
             title:"Settings",
-            link:"/setting"
+            link:"/settings"
 
         },
 
