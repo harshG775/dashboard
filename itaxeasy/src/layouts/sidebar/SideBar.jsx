@@ -1,20 +1,11 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import { useState } from "react";
-
-const SidBarData = {
-    logo:{
-        title:"ItaxEasy",
-        subTitle:"Easy Accountancy"
-    },
-}
 
 export default function Sidebar() {
     const [isMenuOpen,setIsMenuOpen]=useState(false)
 	const handleMenuToggle =()=>{
 		setIsMenuOpen(prev=>!prev)
 	}
-    // ${isMenuOpen?"ml-72":""}
     return (
         <>
         <button onClick={handleMenuToggle} data-drawer-target="sidebar-multi-level-sidebar" data-drawer-toggle="sidebar-multi-level-sidebar" aria-controls="sidebar-multi-level-sidebar" type="button" 
@@ -24,7 +15,7 @@ export default function Sidebar() {
         </button>
 
         <aside 
-            className={`${isMenuOpen?"":"-translate-x-full"} fixed top-0 left-0 z-40 w-64 h-screen transition-transform sm:translate-x-0`}
+            className={`${isMenuOpen?"":"-translate-x-full"} border-solid border-2 border-sky-800  fixed top-0 left-0 z-40 w-64 h-screen transition-transform sm:translate-x-0`}
             id="sidebar-multi-level-sidebar" aria-label="Sidebar">
             <div className="h-full overflow-y-auto bg-gray-50 dark:bg-gray-800">
 
@@ -43,10 +34,14 @@ export default function Sidebar() {
 }
 
 function Logo() {
+    const logo={
+        title:"ItaxEasy",
+        subTitle:"Easy Accountancy"
+    }
     return (
-        <div className="border-solid border-2 border-sky-800 p-4 bg-slate-800 sticky top-0  pl-4 whitespace-nowrap">
-            <div className="text-2xl font-bold">ItaxEasy</div>
-            <div className="text-sm text-gray-500">Easy Accountancy</div>
+        <div className="border-solid border-2 p-4 border-sky-800 text-white bg-slate-800 dark:text-slate-800 dark:bg-white sticky top-0  pl-4 whitespace-nowrap">
+            <div className="text-2xl font-bold">{logo.title}</div>
+            <div className="text-sm text-gray-500">{logo.subTitle}</div>
         </div>
     )
 }

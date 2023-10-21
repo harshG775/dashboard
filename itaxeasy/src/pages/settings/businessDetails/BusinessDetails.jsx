@@ -11,53 +11,53 @@ export default function BusinessDetails() {
 			<main className=' p-4 border-2 border-gray-200 border-dashed rounded-lg dark:border-gray-700 h-full overflow-y-auto'>
 				<form>
 					<div className='grid md:grid-cols-2 md:gap-6'>
-						<div class='mb-6'>
+						<div className='mb-6'>
 							<label
-								for='text'
-								class='block mb-2 text-sm font-medium text-gray-900 dark:text-white'
+								htmlFor='text'
+								className='block mb-2 text-sm font-medium text-gray-900 dark:text-white'
 							>
 								Business name
 							</label>
 							<input
 								type='text'
 								id='text'
-								class='bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500'
+								className='bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500'
 								placeholder='Business name'
 							/>
 						</div>
-						<div class='mb-6'>
+						<div className='mb-6'>
 							<label
-								for='text'
-								class='block mb-2 text-sm font-medium text-gray-900 dark:text-white'
+								htmlFor='text'
+								className='block mb-2 text-sm font-medium text-gray-900 dark:text-white'
 							>
 								Short name
 							</label>
 							<input
 								type='text'
 								id='text'
-								class='bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500'
+								className='bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500'
 								placeholder='Short name'
 							/>
 						</div>
 					</div>
-					<div class='mb-6'>
+					<div className='mb-6'>
 						<label
-							for='text'
-							class='block mb-2 text-sm font-medium text-gray-900 dark:text-white'
+							htmlFor='text'
+							className='block mb-2 text-sm font-medium text-gray-900 dark:text-white'
 						>
 							Print name
 						</label>
 						<input
 							type='text'
 							id='text'
-							class='bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500'
+							className='bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500'
 							placeholder='Print name'
 						/>
 					</div>
-					<div class='mb-6'>
+					<div className='mb-6'>
 						<label
-							for='password'
-							class='block mb-2 text-sm font-medium text-gray-900 dark:text-white'
+							htmlFor='password'
+							className='block mb-2 text-sm font-medium text-gray-900 dark:text-white'
 						>
 							Address
 						</label>
@@ -66,24 +66,24 @@ export default function BusinessDetails() {
 							id='address'
 							cols='30'
 							rows='10'
-							class='bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500'
+							className='bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500'
 							placeholder='Address'
 						></textarea>
 					</div>
 					<div className='grid md:grid-cols-2 md:gap-6'>
-						<div class='mb-6'>
+						<div className='mb-6'>
 							<label
-								for='email'
-								class='block mb-2 text-sm font-medium text-gray-900 dark:text-white'
+								htmlFor='email'
+								className='block mb-2 text-sm font-medium text-gray-900 dark:text-white'
 							>
 							</label>
 							<label
-								for='countries'
-								class='block mb-2 text-sm font-medium text-gray-900 dark:text-white'
+								htmlFor='countries'
+								className='block mb-2 text-sm font-medium text-gray-900 dark:text-white'
 							>
 								State
 							</label>
-							<select id='countries' class='bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500'>
+							<select id='countries' className='bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500'>
 								<option value='' disabled='' hidden=''>
 									Select State
 								</option>
@@ -146,73 +146,73 @@ export default function BusinessDetails() {
 								<option value='Puducherry'>Puducherry</option>							
 							</select>
 						</div>
-						<div class='mb-6'>
+						<div className='mb-6'>
 							<label
-								for='city'
-								class='block mb-2 text-sm font-medium text-gray-900 dark:text-white'
+								htmlFor='city'
+								className='block mb-2 text-sm font-medium text-gray-900 dark:text-white'
 							>
 								city
 							</label>
 							<input
 								type='text'
 								id='city'
-								class='bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500'
+								className='bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500'
                                 placeholder='city name'
 							/>
 						</div>
-						<div class='mb-6'>
-                             <label for='date' class='block mb-2 text-sm font-medium text-gray-900 dark:text-white'>
+						<div className='mb-6'>
+                             <label htmlFor='date' className='block mb-2 text-sm font-medium text-gray-900 dark:text-white'>
 								Financial Year Beginning
 							</label>
 							<input
 								type='date'
 								id='date'
-								class='bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500'
+								className='bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500'
 							/>
 						</div>
-						<div class='mb-6'>
+						<div className='mb-6'>
 							<label
-								for='Books'
-								class='block mb-2 text-sm font-medium text-gray-900 dark:text-white'
+								htmlFor='Books'
+								className='block mb-2 text-sm font-medium text-gray-900 dark:text-white'
 							>
 								Books Commencing From
 							</label>
 							<input
 								type='text'
 								id='Books'
-								class='bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500'
+								className='bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500'
 							/>
 						</div>
-                        <div class="mb-6">
-                            <label for="number" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your number</label>
-                            <input type="tel" id="number" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="+91"/>
+                        <div className="mb-6">
+                            <label htmlFor="number" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your number</label>
+                            <input type="tel" id="number" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="+91"/>
                         </div>
-                        <div class="mb-6">
-                            <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your email</label>
-                            <input type="email" id="email" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="name@flowbite.com" />
+                        <div className="mb-6">
+                            <label htmlFor="email" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your email</label>
+                            <input type="email" id="email" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="name@flowbite.com" />
                         </div>
                             
 
-                        <label class="relative inline-flex items-center mb-4 cursor-pointer">
-                            <input type="checkbox" value="" class="sr-only peer"/>
-                            <div class="w-11 h-6 bg-gray-200 rounded-full peer peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 dark:bg-gray-700 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"></div>
-                            <span class="ml-3 text-sm font-medium text-gray-900 dark:text-gray-300">Enabled GST</span>
+                        <label className="relative inline-flex items-center mb-4 cursor-pointer">
+                            <input type="checkbox" value="" className="sr-only peer"/>
+                            <div className="w-11 h-6 bg-gray-200 rounded-full peer peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 dark:bg-gray-700 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"></div>
+                            <span className="ml-3 text-sm font-medium text-gray-900 dark:text-gray-300">Enabled GST</span>
                         </label>
                         <br />
 
-                        <div class="mb-6">
-                            <label for="GSTIN" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">GSTIN</label>
-                            <input type="text" id="GSTIN" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="name@flowbite.com" />
+                        <div className="mb-6">
+                            <label htmlFor="GSTIN" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">GSTIN</label>
+                            <input type="text" id="GSTIN" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="name@flowbite.com" />
                         </div>
-                        <div class="mb-6">
-                            <label for="IT-PAN" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">IT PAN</label>
-                            <input type="text" id="IT-PAN" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="name@flowbite.com" />
+                        <div className="mb-6">
+                            <label htmlFor="IT-PAN" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">IT PAN</label>
+                            <input type="text" id="IT-PAN" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="name@flowbite.com" />
                         </div>
 
-                        <label class="relative inline-flex items-center mb-4 cursor-pointer">
-                            <input type="checkbox" value="" class="sr-only peer"/>
-                            <div class="w-11 h-6 bg-gray-200 rounded-full peer peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 dark:bg-gray-700 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"></div>
-                            <span class="ml-3 text-sm font-medium text-gray-900 dark:text-gray-300">Enable CESS</span>
+                        <label className="relative inline-flex items-center mb-4 cursor-pointer">
+                            <input type="checkbox" value="" className="sr-only peer"/>
+                            <div className="w-11 h-6 bg-gray-200 rounded-full peer peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 dark:bg-gray-700 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"></div>
+                            <span className="ml-3 text-sm font-medium text-gray-900 dark:text-gray-300">Enable CESS</span>
                         </label>
 
 
@@ -220,7 +220,7 @@ export default function BusinessDetails() {
 					</div>
 
 					<div>
-                    <button type='submit' class=' px-12 mt-4 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800'>
+                    <button type='submit' className=' px-12 mt-4 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800'>
 						Submit
 					</button>
                     </div>
